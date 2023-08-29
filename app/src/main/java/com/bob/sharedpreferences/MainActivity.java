@@ -20,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent openSettings= new Intent(MainActivity.this, SettingsActivity.class);
+                Intent openSettings = new Intent(MainActivity.this, SettingsActivity.class);
                 startActivity(openSettings);
             }
         });
-
 
     }
 }
