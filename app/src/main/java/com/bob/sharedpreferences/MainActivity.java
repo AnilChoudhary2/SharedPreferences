@@ -2,6 +2,7 @@ package com.bob.sharedpreferences;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                Intent openSettings= new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(openSettings);
             }
         });
 
