@@ -9,20 +9,13 @@
     android:padding="20dp"
     >
 
-    <androidx.appcompat.widget.SwitchCompat
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch Compat"
-        />
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        ></Switch>
+
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Switch Material "></com.google.android.material.switchmaterial.SwitchMaterial>
+        android:text="Switch Material "
+        android:id="@+id/main_switch"
+        ></com.google.android.material.switchmaterial.SwitchMaterial>
 
 </LinearLayout>
